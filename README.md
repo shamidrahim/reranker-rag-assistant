@@ -44,10 +44,11 @@ venv\Scripts\activate
 
 ```bash
 pip install -r requirements.txt
+```
 🔑 Environment Variables
 Create a .env file (here called var.env) in the project root:
 
-bash
+```bash
 OPENAI_API_KEY=sk-your-real-key-here
 ```
 
