@@ -55,7 +55,6 @@ OPENAI_API_KEY=sk-your-real-key-here
 ### Start the FastAPI backend:
 
 ```bash
-Copy code
 uvicorn main:app --reload
 ```
 The API will be available at:
