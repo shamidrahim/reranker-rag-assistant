@@ -21,14 +21,15 @@ It includes a **FastAPI backend** and a **Streamlit frontend** for easy interact
 
 ## 🛠️ Installation
 
-Clone this repository:
+### 1. Clone this repository
 
 ```bash
 git clone https://github.com/shamidrahim/reranker-rag-assistant.git
 cd reranker-rag-assistant
-### Create a virtual environment and activate it:
+```
+### 2. Create a virtual environment and activate it:
 
-bash
+```bash
 Copy code
 # Mac/Linux
 python -m venv venv
@@ -38,40 +39,38 @@ Copy code
 # Windows (PowerShell)
 python -m venv venv
 venv\Scripts\activate
-Install dependencies:
+```
+### 3. Install dependencies:
 
-bash
-Copy code
+```bash
 pip install -r requirements.txt
 🔑 Environment Variables
 Create a .env file (here called var.env) in the project root:
 
 bash
-Copy code
 OPENAI_API_KEY=sk-your-real-key-here
-⚠️ Do not commit your real API key.
-Instead, use var.env.example to share the required format with collaborators.
+```
 
-▶️ Running the Project
-Start the FastAPI backend:
+### ▶️ Running the Project
+### Start the FastAPI backend:
 
-bash
+```bash
 Copy code
 uvicorn main:app --reload
+```
 The API will be available at:
 👉 http://127.0.0.1:8000
 
-Start the Streamlit frontend:
+### Start the Streamlit frontend:
 
-bash
-Copy code
+```bash
 streamlit run streamlit_app.py
+```
 The app will run at:
 👉 http://localhost:8501
 
-📂 Project Structure
-php
-Copy code
+### 📂 Project Structure
+```php
 reranker-rag-assistant/
 │── __pycache__/           # Python cache files
 │── venv/                  # Virtual environment
@@ -82,10 +81,11 @@ reranker-rag-assistant/
 │── var.env                # Local environment variables (ignored in git)
 │── var.env.example        # Example env file
 │── .gitignore             # Ignore venv, env files, cache
-📜 License
+```
+### 📜 License
 This project is licensed under the MIT License.
 
-🙌 Acknowledgements
+### 🙌 Acknowledgements
 LangChain – text splitting & retrieval
 
 FAISS – vector similarity search
