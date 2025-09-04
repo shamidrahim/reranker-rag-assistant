@@ -26,7 +26,7 @@ Clone this repository:
 ```bash
 git clone https://github.com/shamidrahim/reranker-rag-assistant.git
 cd reranker-rag-assistant
-Create a virtual environment and activate it:
+### Create a virtual environment and activate it:
 
 bash
 Copy code
